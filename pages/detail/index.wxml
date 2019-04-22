@@ -1,0 +1,6 @@
+<!--pages/detail/index.wxml-->
+<!-- <text>pages/detail/index.wxml</text> -->
+<view>
+ <view>detail</view>
+ <view>{{username}}</view>
+</view>

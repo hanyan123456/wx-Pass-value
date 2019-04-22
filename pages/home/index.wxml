@@ -1,0 +1,13 @@
+<!--pages/home/index.wxml-->
+<!-- <text>pages/home/index.wxml</text> -->
+<view>
+ <view>home</view>
+ <view >点我进入详情页</view>
+ <view wx:for='{{logos}}' wx:for-item='item' wx:for-index='index' 
+ wx:key='item.id' >
+  <view bindtap='jumpPage' data-name="{{item.name}}">{{item.name}}</view>
+  <view>{{item.count}}</view>
+ </view>
+
+
+</view>
